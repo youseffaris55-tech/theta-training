@@ -1,0 +1,58 @@
+body{
+    box-sizing: border-box;
+background-color: rgb(7, 169, 115) ;
+
+  
+ justify-content: center;    
+  align-items: center;  
+
+}
+
+.container{
+display: flex;
+flex-direction: column;
+  
+ justify-content: center;    
+  align-items: center;  
+min-height: 100vh;
+}
+.box{
+display: flex;
+flex-direction: column;
+border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+background-color: aliceblue;
+width: 400px;
+height: 400px;
+padding-left :15px ;
+gap: 2px;
+align-items: center;
+}
+.box h1{
+font-weight: lighter;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inp input{
+display: flex;
+flex-direction: column;
+width: 250px;
+border: none;
+background: transparent;
+border-bottom: 2px solid black;
+margin-bottom: 15px;
+margin-top: 20px;
+
+}
+.inp label  {color:rgb(5, 153, 104) ; font-size: large;; }
+.butt button{
+margin-top: 20px;
+width:250px ;
+height: 50px;
+background-color:rgb(7, 169, 115) ;
+border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: aliceblue;
+
+  font-size: x-large;
+}
